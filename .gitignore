@@ -6,6 +6,9 @@ dist
 dist-ssr
 *.local
 
+# Scratch/untitled files
+src/Untitled
+
 # Editor
 .vscode/*
 !.vscode/extensions.json

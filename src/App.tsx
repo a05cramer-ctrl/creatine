@@ -52,7 +52,8 @@ function ParticleCanvas() {
 
       if (Math.random() < 0.3) createParticle()
 
-      particles.forEach((p, i) => {
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i]
         p.x += p.vx
         p.y += p.vy
         p.life++
@@ -60,7 +61,7 @@ function ParticleCanvas() {
 
         if (p.life > p.maxLife) {
           particles.splice(i, 1)
-          return
+          continue
         }
 
         const alpha = 1 - p.life / p.maxLife
@@ -70,7 +71,7 @@ function ParticleCanvas() {
           ? `rgba(0, 212, 255, ${alpha})`
           : `rgba(255, 215, 0, ${alpha})`
         ctx.fill()
-      })
+      }
 
       animationId = requestAnimationFrame(animate)
     }
