@@ -174,7 +174,7 @@ function App() {
           <div className="nav-links">
             <a href="#lore">Lore</a>
             <a href="#roadmap">Roadmap</a>
-            <a href="https://x.com/CreatineCR8N" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+            <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
             <a href="#cta" className="nav-cta">Inject</a>
           </div>
         </nav>
@@ -196,7 +196,7 @@ function App() {
               <span className="cta-text">INJECT THE GAINS</span>
               <span className="cta-glow" />
             </a>
-            <a href="https://x.com/CreatineCR8N" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
+            <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
               𝕏
             </a>
           </div>
@@ -257,14 +257,14 @@ function App() {
             <span className="cta-text">INJECT THE GAINS</span>
             <span className="cta-glow" />
           </a>
-          <a href="https://x.com/CreatineCR8N" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
+          <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
             𝕏
           </a>
         </div>
       </section>
 
       <footer className="footer">
-        <a href="https://x.com/CreatineCR8N" target="_blank" rel="noopener noreferrer" className="footer-twitter" aria-label="Follow us on X (Twitter)">
+        <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="footer-twitter" aria-label="Follow us on X (Twitter)">
           𝕏 Follow us on X
         </a>
         <p>$CR8N — Creatine. Gym bro meets blockchain supernova.</p>
