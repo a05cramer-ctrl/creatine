@@ -1,6 +1,7 @@
 import { useEffect, useRef, useId } from 'react'
 import './App.css'
 import { LORE_BANNER, LORE_SECTION } from './lore'
+import { PUMP_FUN_URL, TWITTER_URL } from './config'
 
 function ParticleCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -175,7 +176,7 @@ function App() {
           <div className="nav-links">
             <a href="#lore">Lore</a>
             <a href="#roadmap">Roadmap</a>
-            <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+            <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
             <a href="#cta" className="nav-cta">Inject</a>
           </div>
         </nav>
@@ -193,11 +194,11 @@ function App() {
             Science-backed gains meet blockchain chaos. Your muscles will thank you. Your wallet might explode.
           </p>
           <div className="hero-cta-row">
-            <a href="#cta" className="cta-button">
-              <span className="cta-text">INJECT THE GAINS</span>
+          <a href={PUMP_FUN_URL} target="_blank" rel="noopener noreferrer" className="cta-button">
+            <span className="cta-text">INJECT THE GAINS</span>
               <span className="cta-glow" />
             </a>
-            <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
+            <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
               𝕏
             </a>
           </div>
@@ -254,18 +255,18 @@ function App() {
         <h2 className="cta-headline">Ready to inject?</h2>
         <p className="cta-sub">Join the gains revolution. No cap.</p>
         <div className="hero-cta-row">
-          <a href="#" className="cta-button cta-button-large">
+          <a href={PUMP_FUN_URL} target="_blank" rel="noopener noreferrer" className="cta-button cta-button-large">
             <span className="cta-text">INJECT THE GAINS</span>
             <span className="cta-glow" />
           </a>
-          <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
+          <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" className="cta-twitter" aria-label="Follow us on X (Twitter)">
             𝕏
           </a>
         </div>
       </section>
 
       <footer className="footer">
-        <a href="https://x.com/Creatine_Org" target="_blank" rel="noopener noreferrer" className="footer-twitter" aria-label="Follow us on X (Twitter)">
+        <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" className="footer-twitter" aria-label="Follow us on X (Twitter)">
           𝕏 Follow us on X
         </a>
         <p>$CR8N — Creatine. Gym bro meets blockchain supernova.</p>
